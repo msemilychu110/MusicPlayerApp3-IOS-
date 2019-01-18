@@ -1,0 +1,1113 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D9B23BADED70DFBB5AB25051085DCC /* DrawerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A121A36428DBA1814BC9EF55B2F28587 /* DrawerState.swift */; };
+		044C3B69773155EA0D41000FE8DF081C /* DrawerAnimationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EF402B5A2B147857A6BCA0A16E5EB2 /* DrawerAnimationInfo.swift */; };
+		049631D648B99744F198E296F06FB2E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		1AE57D120C56EFC7025B99F0A0EFC616 /* Pods-musicplayerApp3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D2ECE1E521486E1F967000F1380B9E /* Pods-musicplayerApp3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BAC948561A550985D583FAAFE1DD577 /* DrawerAnimationParticipant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F05975282747FE9A526F90EEF12ED8 /* DrawerAnimationParticipant.swift */; };
+		1F66BC6F78EA92F6D8F0AE6966E8C839 /* PresentationController+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78649E86BE8EB2E428DD3DB17490BE58 /* PresentationController+Utilities.swift */; };
+		1F942DC870D1A40B40FE1D8AB88D59E0 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F084A875989D89BFAD37EB7087507C9 /* PresentationController.swift */; };
+		204A38A68E1110421E880B9D21FEE1B9 /* MTCircularSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C7A5BE56A64A370A135CF83608C29C /* MTCircularSlider-dummy.m */; };
+		21F3EEE67919681CEA5C7ED672EE9F3B /* DrawerKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA06E27A3E072FA0D307775B7AFC749B /* DrawerKit-dummy.m */; };
+		29499AAAB694A3A936C367EBAD8811F1 /* DrawerAnimationActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D16780B2DCCDCBD51909D8F8C62362F /* DrawerAnimationActions.swift */; };
+		2C8AE693A767A48730BB8212159FC8BE /* DrawerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0929FE569EEDCC9F2611A47D696A618D /* DrawerConfiguration.swift */; };
+		2E4650A7C49133760820002C026C09E0 /* DrawerAnimationInfo+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F56671AD80682AD311164C4F2BC93D /* DrawerAnimationInfo+Configuration.swift */; };
+		3089475E680A4A81445ECE169B682D37 /* SJContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B5D7E5556E305DB4ED67BB03F6E9F5 /* SJContentView.swift */; };
+		359B4E0673A0AA442D3B20CABE314DDF /* DrawerShadowConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A40114893606C172A4E9E528870ADB /* DrawerShadowConfiguration.swift */; };
+		40F1E8412FF2F03D39B842AD6264FE88 /* AnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64726E15B0D485443CB63C7340CEC08 /* AnimationController.swift */; };
+		42F853FAFCB97AF261CA98CA3AD485C5 /* SJUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1673842F8BDA0EB351C8FA863A2DCACB /* SJUtil.swift */; };
+		4592F0FEB70D5D966B00ABF324303C7C /* PresentationController+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCA116D3D3FCCA11C84D8465CC5EF8 /* PresentationController+Properties.swift */; };
+		481F798C6F63A316109D3D4305C6D125 /* PresentationController+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327E8CDE9F674875B0E01847C45A2011 /* PresentationController+Setup.swift */; };
+		4C9FCCED6A56971059D899561802159F /* PresentationController+PullToDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E11B0368F94A2511E68A8D6611A6559 /* PresentationController+PullToDismiss.swift */; };
+		55D73D37EB3CB394CE276F11A32F8D51 /* PresentationController+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DB20D3E23AAFFE0EE15C4F761129E8 /* PresentationController+Animation.swift */; };
+		5A4982D6484112D67310A20A4850A0E3 /* SJSegmentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22BC780C30FBF0C4D461171EDD3FF1D /* SJSegmentedViewController.swift */; };
+		5FAC404813D4FAF238C191A5DFE39242 /* Pods-musicplayerApp3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C009ED25CF029E781FB2CF8EE6A5B929 /* Pods-musicplayerApp3-dummy.m */; };
+		68039834EA96CF8566C4CC467ADD5EA3 /* DrawerAnimationInfo+Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D59B96C44F60042015E0E24FD2A18 /* DrawerAnimationInfo+Geometry.swift */; };
+		6EAA979D573D8FD2E1C465835455B752 /* DrawerPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485578CA7E11E4082D0283B660F56B25 /* DrawerPresentable.swift */; };
+		70B14F8CE374DB78C19B4FF2EDDB5A3F /* SJShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C79F3BC5AF84304C4547800379C4382 /* SJShadow.swift */; };
+		72B757C70150ECFEE19E5A2139785759 /* InteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EA26C33B265160B840D30C9E73FB4C /* InteractionController.swift */; };
+		73F1722C3EB2E59245248C7FB0D1978F /* DrawerGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5270A9F52E654FF0B3225014E83D01 /* DrawerGeometry.swift */; };
+		796A6D28B1B580A74AD7F326108257EC /* SJSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E11CE6B31422D509DBE18C6653746DB /* SJSegmentView.swift */; };
+		7A5A1EF9086AD1B705B3F9F432B7A11C /* DrawerDisplayController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2572D9D578DBE0996307D8B88F80A666 /* DrawerDisplayController+Extensions.swift */; };
+		82F174BD447D3FFEEBA7242DC088E354 /* GeometryEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156542CA434F8D1C3F7ECA1E5D4B842E /* GeometryEvaluator.swift */; };
+		844AFB9C051E9887D38E8A870D08B761 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		8C1844DBA9DF20988F8CFB0BD580D384 /* DrawerBorderConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F0616E743135CA24A47238B0C0A3A7 /* DrawerBorderConfiguration.swift */; };
+		8C7778BFE24D9F4E3283159651004320 /* SJSegmentedScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5196FC45AE6F391E1D8EE03843BE3470 /* SJSegmentedScrollView.swift */; };
+		8E7603618310911CFFD18AA16C8B64D6 /* PresentationContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9051841567AC429DD0F415C81EF788 /* PresentationContainerView.swift */; };
+		954F94B764592286CF763D74A9919D47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		A17C614D9376AB694A3CA490A3E9AA93 /* SJSegmentedScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB2D5458DBBD184BF9800F95757BF0D /* SJSegmentedScrollView-dummy.m */; };
+		A180DFFBD832773CB18D504C0092327B /* DrawerCoordinating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578FFD58579C8D0973A3EBCE47A3AC9C /* DrawerCoordinating.swift */; };
+		A5FA8E86366DF9F581363C2D1F1A343F /* DrawerDisplayController+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DF2F92618DB2DFFED21448E15168F9 /* DrawerDisplayController+Configuration.swift */; };
+		A6697BC7D76D0A370EEC91D20AE73767 /* DrawerDisplayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6304E10A92EAE4023A81F5062C03F698 /* DrawerDisplayController.swift */; };
+		AE8AEE8676ABE5B79268D800589EA38C /* SJSegmentTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7565B2D311EBAEC26FC917BE051F56C1 /* SJSegmentTab.swift */; };
+		B504EC362342A3F3CB69832F9DF80AB5 /* MTCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF085A7AE3363338A3BB1B7ABA7DE4CB /* MTCircularSlider.swift */; };
+		BA0F2171048EB08BD0F11AC8C436D1BF /* AnimationSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230D6E9D0738383009BD95A1EA9CB8A5 /* AnimationSupport.swift */; };
+		C26D531B8F0DDEDDC41552BBA4B04A30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		C5B0249F020D6E871EEED63CAD3E341C /* SJSegmentedScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47756C23DA4195116A02DCEDEF759C /* SJSegmentedScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C909AAB8760C5A47F208D7CBF084923A /* DrawerPresentationControlling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47C8B60495246274154305EF1A63710 /* DrawerPresentationControlling.swift */; };
+		CA04968608D60455A1F2B9D2ACC91CDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		CA8C86385B21E703B5FEA5B6684D2A1F /* DrawerNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3888040B6F5460A24068AFE5F8215CE7 /* DrawerNotifications.swift */; };
+		CC9DDA600079BAF7D7EFDC832A756C56 /* PresentationController+Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45811E5C3173A6068A139492ECD5A4F /* PresentationController+Gestures.swift */; };
+		CD3E0DB187738E09A0761F84E77FE6B8 /* DrawerKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A77306419F92C91D51753308842ACD8 /* DrawerKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2E5CD721BDD5AC0B547923E6F2A1491 /* PresentationController+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918BCA2E857B37B527AF27FBAA4B4DB1 /* PresentationController+Configuration.swift */; };
+		DDEBDB00BD34C39B2FF55A9FF509A57E /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE6C6C89F4DAAF26E1888A1FE0165EA /* Notifications.swift */; };
+		F32C768312491126DF5CB377EE4AB040 /* MTCircularSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C35C1BAD22295AFC9F1D8F196011A6A /* MTCircularSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F47F3CD8C0AF9A17A17C7E7F39BCF2C4 /* HandleViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C700C419D96C6BB2C502A4E5A4D4BFBA /* HandleViewConfiguration.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28434C77E70C9351EB80FF0CA34F9DB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4303FD42732B9D5F666C3D0172B2D9E7;
+			remoteInfo = DrawerKit;
+		};
+		64E7DCE4E979443240379FA439B03C3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 580CA9B79615B5BAE4626EA872B7C013;
+			remoteInfo = MTCircularSlider;
+		};
+		F3271DC06C2B5CE83CFB23234439EC50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D86BE5C90AA00FA58CBD7A862EAA7BAF;
+			remoteInfo = SJSegmentedScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0097B9DE74696ED14B97CB72903B9AEB /* Pods-musicplayerApp3-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-musicplayerApp3-acknowledgements.plist"; sourceTree = "<group>"; };
+		0160A3E446CACE3DCD13164315219386 /* Pods_musicplayerApp3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_musicplayerApp3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E51B327DEB1047C1B8CFA584FB964A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06B5F0020C9AC8E34ED76300B891ADCA /* SJSegmentedScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SJSegmentedScrollView.modulemap; sourceTree = "<group>"; };
+		081FAE249AE2672987044DE9D741A7AC /* Pods-musicplayerApp3-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-musicplayerApp3-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0929FE569EEDCC9F2611A47D696A618D /* DrawerConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawerConfiguration.swift; path = "DrawerKit/DrawerKit/Public API/Structs/DrawerConfiguration.swift"; sourceTree = "<group>"; };
+		0E11CE6B31422D509DBE18C6653746DB /* SJSegmentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SJSegmentView.swift; path = SJSegmentedScrollView/Classes/SJSegmentView.swift; sourceTree = "<group>"; };
+		14C7A5BE56A64A370A135CF83608C29C /* MTCircularSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTCircularSlider-dummy.m"; sourceTree = "<group>"; };
+		156542CA434F8D1C3F7ECA1E5D4B842E /* GeometryEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeometryEvaluator.swift; path = "DrawerKit/DrawerKit/Internal API/GeometryEvaluator.swift"; sourceTree = "<group>"; };
+		15A40114893606C172A4E9E528870ADB /* DrawerShadowConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawerShadowConfiguration.swift; path = "DrawerKit/DrawerKit/Public API/Structs/DrawerShadowConfiguration.swift"; sourceTree = "<group>"; };
+		1673842F8BDA0EB351C8FA863A2DCACB /* SJUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SJUtil.swift; path = SJSegmentedScrollView/Classes/SJUtil.swift; sourceTree = "<group>"; };
+		1F084A875989D89BFAD37EB7087507C9 /* PresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationController.swift; path = "DrawerKit/DrawerKit/Internal API/PresentationController.swift"; sourceTree = "<group>"; };
+		230D6E9D0738383009BD95A1EA9CB8A5 /* AnimationSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationSupport.swift; path = "DrawerKit/DrawerKit/Internal API/AnimationSupport.swift"; sourceTree = "<group>"; };
+		2572D9D578DBE0996307D8B88F80A666 /* DrawerDisplayController+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DrawerDisplayController+Extensions.swift"; path = "DrawerKit/DrawerKit/Internal API/DrawerDisplayController+Extensions.swift"; sourceTree = "<group>"; };
+		2D16780B2DCCDCBD51909D8F8C62362F /* DrawerAnimationActions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawerAnimationActions.swift; path = "DrawerKit/DrawerKit/Public API/Structs/DrawerAnimationActions.swift"; sourceTree = "<group>"; };
+		327E8CDE9F674875B0E01847C45A2011 /* PresentationController+Setup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PresentationController+Setup.swift"; path = "DrawerKit/DrawerKit/Internal API/PresentationController+Setup.swift"; sourceTree = "<group>"; };
+		3888040B6F5460A24068AFE5F8215CE7 /* DrawerNotifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawerNotifications.swift; path = "DrawerKit/DrawerKit/Public API/DrawerNotifications.swift"; sourceTree = "<group>"; };
+		39DF2F92618DB2DFFED21448E15168F9 /* DrawerDisplayController+Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DrawerDisplayController+Configuration.swift"; path = "DrawerKit/DrawerKit/Public API/Extensions/DrawerDisplayController+Configuration.swift"; sourceTree = "<group>"; };
+		3A0B3A7411E8029057858562C283603F /* DrawerKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DrawerKit.xcconfig; sourceTree = "<group>"; };
+		3B3282BB0254D91C107493483E1E1207 /* Pods-musicplayerApp3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-musicplayerApp3.modulemap"; sourceTree = "<group>"; };
+		45F05975282747FE9A526F90EEF12ED8 /* DrawerAnimationParticipant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawerAnimationParticipant.swift; path = "DrawerKit/DrawerKit/Public API/Protocols/DrawerAnimationParticipant.swift"; sourceTree = "<group>"; };
+		485578CA7E11E4082D0283B660F56B25 /* DrawerPresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawerPresentable.swift; path = "DrawerKit/DrawerKit/Public API/Protocols/DrawerPresentable.swift"; sourceTree = "<group>"; };
+		507FC860FFF90CEF08AED2CC2DAD8ABF /* SJSegmentedScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SJSegmentedScrollView-prefix.pch"; sourceTree = "<group>"; };
+		5196FC45AE6F391E1D8EE03843BE3470 /* SJSegmentedScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SJSegmentedScrollView.swift; path = SJSegmentedScrollView/Classes/SJSegmentedScrollView.swift; sourceTree = "<group>"; };
+		564FFA04221D8435AC116FB0D7C32226 /* DrawerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DrawerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F0616E743135CA24A47238B0C0A3A7 /* DrawerBorderConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawerBorderConfiguration.swift; path = "DrawerKit/DrawerKit/Public API/Structs/DrawerBorderConfiguration.swift"; sourceTree = "<group>"; };
+		578FFD58579C8D0973A3EBCE47A3AC9C /* DrawerCoordinating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawerCoordinating.swift; path = "DrawerKit/DrawerKit/Public API/Protocols/DrawerCoordinating.swift"; sourceTree = "<group>"; };
+		5A704F2B0DABD24157F1058622948FD8 /* Pods-musicplayerApp3-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-musicplayerApp3-frameworks.sh"; sourceTree = "<group>"; };
+		5C79F3BC5AF84304C4547800379C4382 /* SJShadow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SJShadow.swift; path = SJSegmentedScrollView/Classes/SJShadow.swift; sourceTree = "<group>"; };
+		61B63E76721362809B5F1E46516E5A03 /* MTCircularSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTCircularSlider-prefix.pch"; sourceTree = "<group>"; };
+		6304E10A92EAE4023A81F5062C03F698 /* DrawerDisplayController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawerDisplayController.swift; path = "DrawerKit/DrawerKit/Public API/DrawerDisplayController.swift"; sourceTree = "<group>"; };
+		6D8A3AC512A6178B72E158697D238DA2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E11B0368F94A2511E68A8D6611A6559 /* PresentationController+PullToDismiss.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PresentationController+PullToDismiss.swift"; path = "DrawerKit/DrawerKit/Internal API/PresentationController+PullToDismiss.swift"; sourceTree = "<group>"; };
+		7565B2D311EBAEC26FC917BE051F56C1 /* SJSegmentTab.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SJSegmentTab.swift; path = SJSegmentedScrollView/Classes/SJSegmentTab.swift; sourceTree = "<group>"; };
+		78649E86BE8EB2E428DD3DB17490BE58 /* PresentationController+Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PresentationController+Utilities.swift"; path = "DrawerKit/DrawerKit/Internal API/PresentationController+Utilities.swift"; sourceTree = "<group>"; };
+		7A1D59B96C44F60042015E0E24FD2A18 /* DrawerAnimationInfo+Geometry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DrawerAnimationInfo+Geometry.swift"; path = "DrawerKit/DrawerKit/Public API/Extensions/DrawerAnimationInfo+Geometry.swift"; sourceTree = "<group>"; };
+		7C1A7AD009AC02B859E3000AF14830D4 /* Pods-musicplayerApp3-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-musicplayerApp3-resources.sh"; sourceTree = "<group>"; };
+		7C35C1BAD22295AFC9F1D8F196011A6A /* MTCircularSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTCircularSlider-umbrella.h"; sourceTree = "<group>"; };
+		7DC3D1C030F08299A43A9735CE18120F /* MTCircularSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MTCircularSlider.modulemap; sourceTree = "<group>"; };
+		8A77306419F92C91D51753308842ACD8 /* DrawerKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DrawerKit-umbrella.h"; sourceTree = "<group>"; };
+		8EFCA116D3D3FCCA11C84D8465CC5EF8 /* PresentationController+Properties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PresentationController+Properties.swift"; path = "DrawerKit/DrawerKit/Internal API/PresentationController+Properties.swift"; sourceTree = "<group>"; };
+		908CC235576F25C1D4E5BBECEC7C80EE /* MTCircularSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MTCircularSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		918BCA2E857B37B527AF27FBAA4B4DB1 /* PresentationController+Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PresentationController+Configuration.swift"; path = "DrawerKit/DrawerKit/Internal API/PresentationController+Configuration.swift"; sourceTree = "<group>"; };
+		922212E9DFA287614D04CEA5B4D48193 /* Pods-musicplayerApp3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-musicplayerApp3.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98D2ECE1E521486E1F967000F1380B9E /* Pods-musicplayerApp3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-musicplayerApp3-umbrella.h"; sourceTree = "<group>"; };
+		9B33763B6E2496E17E7F2A24BACF2C2D /* MTCircularSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTCircularSlider.xcconfig; sourceTree = "<group>"; };
+		A121A36428DBA1814BC9EF55B2F28587 /* DrawerState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawerState.swift; path = "DrawerKit/DrawerKit/Public API/Structs/DrawerState.swift"; sourceTree = "<group>"; };
+		A9B5D7E5556E305DB4ED67BB03F6E9F5 /* SJContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SJContentView.swift; path = SJSegmentedScrollView/Classes/SJContentView.swift; sourceTree = "<group>"; };
+		AF085A7AE3363338A3BB1B7ABA7DE4CB /* MTCircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MTCircularSlider.swift; path = MTCircularSlider/Classes/MTCircularSlider.swift; sourceTree = "<group>"; };
+		B22BC780C30FBF0C4D461171EDD3FF1D /* SJSegmentedViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SJSegmentedViewController.swift; path = SJSegmentedScrollView/Classes/SJSegmentedViewController.swift; sourceTree = "<group>"; };
+		B2EF402B5A2B147857A6BCA0A16E5EB2 /* DrawerAnimationInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawerAnimationInfo.swift; path = "DrawerKit/DrawerKit/Public API/Structs/DrawerAnimationInfo.swift"; sourceTree = "<group>"; };
+		B45811E5C3173A6068A139492ECD5A4F /* PresentationController+Gestures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PresentationController+Gestures.swift"; path = "DrawerKit/DrawerKit/Internal API/PresentationController+Gestures.swift"; sourceTree = "<group>"; };
+		B505697C296A18EE5F677DC715A02D7D /* DrawerKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DrawerKit.modulemap; sourceTree = "<group>"; };
+		B5C8C98AC590429D41BAFCA41821B1AE /* Pods-musicplayerApp3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-musicplayerApp3.release.xcconfig"; sourceTree = "<group>"; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BD853358E0217AC882D19672D9A23A88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD92203A0B9D9DDC2478784DE8BC28F9 /* SJSegmentedScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SJSegmentedScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C009ED25CF029E781FB2CF8EE6A5B929 /* Pods-musicplayerApp3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-musicplayerApp3-dummy.m"; sourceTree = "<group>"; };
+		C47C8B60495246274154305EF1A63710 /* DrawerPresentationControlling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawerPresentationControlling.swift; path = "DrawerKit/DrawerKit/Public API/Protocols/DrawerPresentationControlling.swift"; sourceTree = "<group>"; };
+		C700C419D96C6BB2C502A4E5A4D4BFBA /* HandleViewConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HandleViewConfiguration.swift; path = "DrawerKit/DrawerKit/Public API/Structs/HandleViewConfiguration.swift"; sourceTree = "<group>"; };
+		CF5270A9F52E654FF0B3225014E83D01 /* DrawerGeometry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawerGeometry.swift; path = "DrawerKit/DrawerKit/Public API/Structs/DrawerGeometry.swift"; sourceTree = "<group>"; };
+		D0F56671AD80682AD311164C4F2BC93D /* DrawerAnimationInfo+Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DrawerAnimationInfo+Configuration.swift"; path = "DrawerKit/DrawerKit/Public API/Extensions/DrawerAnimationInfo+Configuration.swift"; sourceTree = "<group>"; };
+		D1AD8541BC3820FAB908AD313391DD57 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D85AA930EA14C27FBD10040EA483BF7B /* DrawerKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DrawerKit-prefix.pch"; sourceTree = "<group>"; };
+		DF47756C23DA4195116A02DCEDEF759C /* SJSegmentedScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SJSegmentedScrollView-umbrella.h"; sourceTree = "<group>"; };
+		E1DB20D3E23AAFFE0EE15C4F761129E8 /* PresentationController+Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PresentationController+Animation.swift"; path = "DrawerKit/DrawerKit/Internal API/PresentationController+Animation.swift"; sourceTree = "<group>"; };
+		E3C8CE0871827BF59CF0BFAC73508E8D /* SJSegmentedScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SJSegmentedScrollView.xcconfig; sourceTree = "<group>"; };
+		E6EA26C33B265160B840D30C9E73FB4C /* InteractionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractionController.swift; path = "DrawerKit/DrawerKit/Internal API/InteractionController.swift"; sourceTree = "<group>"; };
+		EA06E27A3E072FA0D307775B7AFC749B /* DrawerKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DrawerKit-dummy.m"; sourceTree = "<group>"; };
+		EBE6C6C89F4DAAF26E1888A1FE0165EA /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = "DrawerKit/DrawerKit/Public API/Notifications.swift"; sourceTree = "<group>"; };
+		EC9051841567AC429DD0F415C81EF788 /* PresentationContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationContainerView.swift; path = "DrawerKit/DrawerKit/Internal API/PresentationContainerView.swift"; sourceTree = "<group>"; };
+		EFB2D5458DBBD184BF9800F95757BF0D /* SJSegmentedScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SJSegmentedScrollView-dummy.m"; sourceTree = "<group>"; };
+		F64726E15B0D485443CB63C7340CEC08 /* AnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationController.swift; path = "DrawerKit/DrawerKit/Internal API/AnimationController.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FA7375450F514974BC8DD085023DF5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049631D648B99744F198E296F06FB2E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1DBC06E7091140A022A552C1D4D511C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA04968608D60455A1F2B9D2ACC91CDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55D69C49D8C278ED29D932A2D968AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954F94B764592286CF763D74A9919D47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D0FE9B7B158DE9A4889BA138C788A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844AFB9C051E9887D38E8A870D08B761 /* Foundation.framework in Frameworks */,
+				C26D531B8F0DDEDDC41552BBA4B04A30 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1BB120359519F562DE64F5423EE97C30 /* SJSegmentedScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				A9B5D7E5556E305DB4ED67BB03F6E9F5 /* SJContentView.swift */,
+				5196FC45AE6F391E1D8EE03843BE3470 /* SJSegmentedScrollView.swift */,
+				B22BC780C30FBF0C4D461171EDD3FF1D /* SJSegmentedViewController.swift */,
+				7565B2D311EBAEC26FC917BE051F56C1 /* SJSegmentTab.swift */,
+				0E11CE6B31422D509DBE18C6653746DB /* SJSegmentView.swift */,
+				5C79F3BC5AF84304C4547800379C4382 /* SJShadow.swift */,
+				1673842F8BDA0EB351C8FA863A2DCACB /* SJUtil.swift */,
+				99E45089768A2C5895D3607010588811 /* Support Files */,
+			);
+			path = SJSegmentedScrollView;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BDCC675ACCF2A65B8ABE453C377050C /* MTCircularSlider */ = {
+			isa = PBXGroup;
+			children = (
+				AF085A7AE3363338A3BB1B7ABA7DE4CB /* MTCircularSlider.swift */,
+				7E1939456D024E0433392B75F2EB47A8 /* Support Files */,
+			);
+			path = MTCircularSlider;
+			sourceTree = "<group>";
+		};
+		5FD58422AA9F81FB3F01362B3CFE02FA /* Pods-musicplayerApp3 */ = {
+			isa = PBXGroup;
+			children = (
+				05E51B327DEB1047C1B8CFA584FB964A /* Info.plist */,
+				3B3282BB0254D91C107493483E1E1207 /* Pods-musicplayerApp3.modulemap */,
+				081FAE249AE2672987044DE9D741A7AC /* Pods-musicplayerApp3-acknowledgements.markdown */,
+				0097B9DE74696ED14B97CB72903B9AEB /* Pods-musicplayerApp3-acknowledgements.plist */,
+				C009ED25CF029E781FB2CF8EE6A5B929 /* Pods-musicplayerApp3-dummy.m */,
+				5A704F2B0DABD24157F1058622948FD8 /* Pods-musicplayerApp3-frameworks.sh */,
+				7C1A7AD009AC02B859E3000AF14830D4 /* Pods-musicplayerApp3-resources.sh */,
+				98D2ECE1E521486E1F967000F1380B9E /* Pods-musicplayerApp3-umbrella.h */,
+				922212E9DFA287614D04CEA5B4D48193 /* Pods-musicplayerApp3.debug.xcconfig */,
+				B5C8C98AC590429D41BAFCA41821B1AE /* Pods-musicplayerApp3.release.xcconfig */,
+			);
+			name = "Pods-musicplayerApp3";
+			path = "Target Support Files/Pods-musicplayerApp3";
+			sourceTree = "<group>";
+		};
+		6BF7C81ADEA193A1BE0C373D485789A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				564FFA04221D8435AC116FB0D7C32226 /* DrawerKit.framework */,
+				908CC235576F25C1D4E5BBECEC7C80EE /* MTCircularSlider.framework */,
+				0160A3E446CACE3DCD13164315219386 /* Pods_musicplayerApp3.framework */,
+				BD92203A0B9D9DDC2478784DE8BC28F9 /* SJSegmentedScrollView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				C2EB65ECBDD195060AF376815704A77D /* Pods */,
+				6BF7C81ADEA193A1BE0C373D485789A5 /* Products */,
+				BDE5278282BD4866D9654E579A3CBAF6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E1939456D024E0433392B75F2EB47A8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D8A3AC512A6178B72E158697D238DA2 /* Info.plist */,
+				7DC3D1C030F08299A43A9735CE18120F /* MTCircularSlider.modulemap */,
+				9B33763B6E2496E17E7F2A24BACF2C2D /* MTCircularSlider.xcconfig */,
+				14C7A5BE56A64A370A135CF83608C29C /* MTCircularSlider-dummy.m */,
+				61B63E76721362809B5F1E46516E5A03 /* MTCircularSlider-prefix.pch */,
+				7C35C1BAD22295AFC9F1D8F196011A6A /* MTCircularSlider-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MTCircularSlider";
+			sourceTree = "<group>";
+		};
+		99E45089768A2C5895D3607010588811 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1AD8541BC3820FAB908AD313391DD57 /* Info.plist */,
+				06B5F0020C9AC8E34ED76300B891ADCA /* SJSegmentedScrollView.modulemap */,
+				E3C8CE0871827BF59CF0BFAC73508E8D /* SJSegmentedScrollView.xcconfig */,
+				EFB2D5458DBBD184BF9800F95757BF0D /* SJSegmentedScrollView-dummy.m */,
+				507FC860FFF90CEF08AED2CC2DAD8ABF /* SJSegmentedScrollView-prefix.pch */,
+				DF47756C23DA4195116A02DCEDEF759C /* SJSegmentedScrollView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SJSegmentedScrollView";
+			sourceTree = "<group>";
+		};
+		B0DD80C5857111E7161342E06350AE76 /* DrawerKit */ = {
+			isa = PBXGroup;
+			children = (
+				F64726E15B0D485443CB63C7340CEC08 /* AnimationController.swift */,
+				230D6E9D0738383009BD95A1EA9CB8A5 /* AnimationSupport.swift */,
+				2D16780B2DCCDCBD51909D8F8C62362F /* DrawerAnimationActions.swift */,
+				B2EF402B5A2B147857A6BCA0A16E5EB2 /* DrawerAnimationInfo.swift */,
+				D0F56671AD80682AD311164C4F2BC93D /* DrawerAnimationInfo+Configuration.swift */,
+				7A1D59B96C44F60042015E0E24FD2A18 /* DrawerAnimationInfo+Geometry.swift */,
+				45F05975282747FE9A526F90EEF12ED8 /* DrawerAnimationParticipant.swift */,
+				56F0616E743135CA24A47238B0C0A3A7 /* DrawerBorderConfiguration.swift */,
+				0929FE569EEDCC9F2611A47D696A618D /* DrawerConfiguration.swift */,
+				578FFD58579C8D0973A3EBCE47A3AC9C /* DrawerCoordinating.swift */,
+				6304E10A92EAE4023A81F5062C03F698 /* DrawerDisplayController.swift */,
+				39DF2F92618DB2DFFED21448E15168F9 /* DrawerDisplayController+Configuration.swift */,
+				2572D9D578DBE0996307D8B88F80A666 /* DrawerDisplayController+Extensions.swift */,
+				CF5270A9F52E654FF0B3225014E83D01 /* DrawerGeometry.swift */,
+				3888040B6F5460A24068AFE5F8215CE7 /* DrawerNotifications.swift */,
+				485578CA7E11E4082D0283B660F56B25 /* DrawerPresentable.swift */,
+				C47C8B60495246274154305EF1A63710 /* DrawerPresentationControlling.swift */,
+				15A40114893606C172A4E9E528870ADB /* DrawerShadowConfiguration.swift */,
+				A121A36428DBA1814BC9EF55B2F28587 /* DrawerState.swift */,
+				156542CA434F8D1C3F7ECA1E5D4B842E /* GeometryEvaluator.swift */,
+				C700C419D96C6BB2C502A4E5A4D4BFBA /* HandleViewConfiguration.swift */,
+				E6EA26C33B265160B840D30C9E73FB4C /* InteractionController.swift */,
+				EBE6C6C89F4DAAF26E1888A1FE0165EA /* Notifications.swift */,
+				EC9051841567AC429DD0F415C81EF788 /* PresentationContainerView.swift */,
+				1F084A875989D89BFAD37EB7087507C9 /* PresentationController.swift */,
+				E1DB20D3E23AAFFE0EE15C4F761129E8 /* PresentationController+Animation.swift */,
+				918BCA2E857B37B527AF27FBAA4B4DB1 /* PresentationController+Configuration.swift */,
+				B45811E5C3173A6068A139492ECD5A4F /* PresentationController+Gestures.swift */,
+				8EFCA116D3D3FCCA11C84D8465CC5EF8 /* PresentationController+Properties.swift */,
+				6E11B0368F94A2511E68A8D6611A6559 /* PresentationController+PullToDismiss.swift */,
+				327E8CDE9F674875B0E01847C45A2011 /* PresentationController+Setup.swift */,
+				78649E86BE8EB2E428DD3DB17490BE58 /* PresentationController+Utilities.swift */,
+				B3C216E049C56034A150BCBCD7FE5596 /* Support Files */,
+			);
+			path = DrawerKit;
+			sourceTree = "<group>";
+		};
+		B3C216E049C56034A150BCBCD7FE5596 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B505697C296A18EE5F677DC715A02D7D /* DrawerKit.modulemap */,
+				3A0B3A7411E8029057858562C283603F /* DrawerKit.xcconfig */,
+				EA06E27A3E072FA0D307775B7AFC749B /* DrawerKit-dummy.m */,
+				D85AA930EA14C27FBD10040EA483BF7B /* DrawerKit-prefix.pch */,
+				8A77306419F92C91D51753308842ACD8 /* DrawerKit-umbrella.h */,
+				BD853358E0217AC882D19672D9A23A88 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DrawerKit";
+			sourceTree = "<group>";
+		};
+		BDE5278282BD4866D9654E579A3CBAF6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FD58422AA9F81FB3F01362B3CFE02FA /* Pods-musicplayerApp3 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C2EB65ECBDD195060AF376815704A77D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0DD80C5857111E7161342E06350AE76 /* DrawerKit */,
+				4BDCC675ACCF2A65B8ABE453C377050C /* MTCircularSlider */,
+				1BB120359519F562DE64F5423EE97C30 /* SJSegmentedScrollView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1720F31D87619D003493D419298EFCBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3E0DB187738E09A0761F84E77FE6B8 /* DrawerKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3775566E7E6D613DC70BD3CBCCDF9DF7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE57D120C56EFC7025B99F0A0EFC616 /* Pods-musicplayerApp3-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A2C75FF579791A35D7728BF0675FB5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B0249F020D6E871EEED63CAD3E341C /* SJSegmentedScrollView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F085CCA36A0716989D8FD294BA084780 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32C768312491126DF5CB377EE4AB040 /* MTCircularSlider-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4303FD42732B9D5F666C3D0172B2D9E7 /* DrawerKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A6E74FB67DD511F70B9993C1E8FD411 /* Build configuration list for PBXNativeTarget "DrawerKit" */;
+			buildPhases = (
+				1720F31D87619D003493D419298EFCBF /* Headers */,
+				95D0822C221C436E7C8AAD5131266F58 /* Sources */,
+				2FA7375450F514974BC8DD085023DF5E /* Frameworks */,
+				A3E7A7EA2C1A11410CE30A73EF2894F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawerKit;
+			productName = DrawerKit;
+			productReference = 564FFA04221D8435AC116FB0D7C32226 /* DrawerKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		580CA9B79615B5BAE4626EA872B7C013 /* MTCircularSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF190C0E7736C0739280BB8E1E4C289 /* Build configuration list for PBXNativeTarget "MTCircularSlider" */;
+			buildPhases = (
+				F085CCA36A0716989D8FD294BA084780 /* Headers */,
+				1FC02AFB46FAE0DAC4EEB0254CFBEF10 /* Sources */,
+				C1DBC06E7091140A022A552C1D4D511C /* Frameworks */,
+				140A99EE9A66752ED272F54C88C1926F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTCircularSlider;
+			productName = MTCircularSlider;
+			productReference = 908CC235576F25C1D4E5BBECEC7C80EE /* MTCircularSlider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D86BE5C90AA00FA58CBD7A862EAA7BAF /* SJSegmentedScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AC8C51AB8834EE1D0C7C1D18C5E0EAB /* Build configuration list for PBXNativeTarget "SJSegmentedScrollView" */;
+			buildPhases = (
+				64A2C75FF579791A35D7728BF0675FB5 /* Headers */,
+				349D76996F8624907BD3680F919552D0 /* Sources */,
+				F7D0FE9B7B158DE9A4889BA138C788A7 /* Frameworks */,
+				9C42B9B58A1A9596484AFCA50089629D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SJSegmentedScrollView;
+			productName = SJSegmentedScrollView;
+			productReference = BD92203A0B9D9DDC2478784DE8BC28F9 /* SJSegmentedScrollView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE11FCD2315DB6B60B248CA88C3B9452 /* Pods-musicplayerApp3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF67F199514C40A9F23C908F101893E3 /* Build configuration list for PBXNativeTarget "Pods-musicplayerApp3" */;
+			buildPhases = (
+				3775566E7E6D613DC70BD3CBCCDF9DF7 /* Headers */,
+				391C42DF644AEFD690358B4472C985D8 /* Sources */,
+				F55D69C49D8C278ED29D932A2D968AFF /* Frameworks */,
+				460420B9591E351B5755C187BFD9C5B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				805E70318DCBBA36C77FC64975733800 /* PBXTargetDependency */,
+				F551EB3233FE9DCACC5013D54B1246E2 /* PBXTargetDependency */,
+				221FC72CA5707FA71EAC7BFF1EA8690A /* PBXTargetDependency */,
+			);
+			name = "Pods-musicplayerApp3";
+			productName = "Pods-musicplayerApp3";
+			productReference = 0160A3E446CACE3DCD13164315219386 /* Pods_musicplayerApp3.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					4303FD42732B9D5F666C3D0172B2D9E7 = {
+						LastSwiftMigration = 1010;
+					};
+					580CA9B79615B5BAE4626EA872B7C013 = {
+						LastSwiftMigration = 1010;
+					};
+					D86BE5C90AA00FA58CBD7A862EAA7BAF = {
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6BF7C81ADEA193A1BE0C373D485789A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4303FD42732B9D5F666C3D0172B2D9E7 /* DrawerKit */,
+				580CA9B79615B5BAE4626EA872B7C013 /* MTCircularSlider */,
+				FE11FCD2315DB6B60B248CA88C3B9452 /* Pods-musicplayerApp3 */,
+				D86BE5C90AA00FA58CBD7A862EAA7BAF /* SJSegmentedScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		140A99EE9A66752ED272F54C88C1926F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460420B9591E351B5755C187BFD9C5B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C42B9B58A1A9596484AFCA50089629D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3E7A7EA2C1A11410CE30A73EF2894F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FC02AFB46FAE0DAC4EEB0254CFBEF10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204A38A68E1110421E880B9D21FEE1B9 /* MTCircularSlider-dummy.m in Sources */,
+				B504EC362342A3F3CB69832F9DF80AB5 /* MTCircularSlider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349D76996F8624907BD3680F919552D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3089475E680A4A81445ECE169B682D37 /* SJContentView.swift in Sources */,
+				A17C614D9376AB694A3CA490A3E9AA93 /* SJSegmentedScrollView-dummy.m in Sources */,
+				8C7778BFE24D9F4E3283159651004320 /* SJSegmentedScrollView.swift in Sources */,
+				5A4982D6484112D67310A20A4850A0E3 /* SJSegmentedViewController.swift in Sources */,
+				AE8AEE8676ABE5B79268D800589EA38C /* SJSegmentTab.swift in Sources */,
+				796A6D28B1B580A74AD7F326108257EC /* SJSegmentView.swift in Sources */,
+				70B14F8CE374DB78C19B4FF2EDDB5A3F /* SJShadow.swift in Sources */,
+				42F853FAFCB97AF261CA98CA3AD485C5 /* SJUtil.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391C42DF644AEFD690358B4472C985D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FAC404813D4FAF238C191A5DFE39242 /* Pods-musicplayerApp3-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D0822C221C436E7C8AAD5131266F58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F1E8412FF2F03D39B842AD6264FE88 /* AnimationController.swift in Sources */,
+				BA0F2171048EB08BD0F11AC8C436D1BF /* AnimationSupport.swift in Sources */,
+				29499AAAB694A3A936C367EBAD8811F1 /* DrawerAnimationActions.swift in Sources */,
+				2E4650A7C49133760820002C026C09E0 /* DrawerAnimationInfo+Configuration.swift in Sources */,
+				68039834EA96CF8566C4CC467ADD5EA3 /* DrawerAnimationInfo+Geometry.swift in Sources */,
+				044C3B69773155EA0D41000FE8DF081C /* DrawerAnimationInfo.swift in Sources */,
+				1BAC948561A550985D583FAAFE1DD577 /* DrawerAnimationParticipant.swift in Sources */,
+				8C1844DBA9DF20988F8CFB0BD580D384 /* DrawerBorderConfiguration.swift in Sources */,
+				2C8AE693A767A48730BB8212159FC8BE /* DrawerConfiguration.swift in Sources */,
+				A180DFFBD832773CB18D504C0092327B /* DrawerCoordinating.swift in Sources */,
+				A5FA8E86366DF9F581363C2D1F1A343F /* DrawerDisplayController+Configuration.swift in Sources */,
+				7A5A1EF9086AD1B705B3F9F432B7A11C /* DrawerDisplayController+Extensions.swift in Sources */,
+				A6697BC7D76D0A370EEC91D20AE73767 /* DrawerDisplayController.swift in Sources */,
+				73F1722C3EB2E59245248C7FB0D1978F /* DrawerGeometry.swift in Sources */,
+				21F3EEE67919681CEA5C7ED672EE9F3B /* DrawerKit-dummy.m in Sources */,
+				CA8C86385B21E703B5FEA5B6684D2A1F /* DrawerNotifications.swift in Sources */,
+				6EAA979D573D8FD2E1C465835455B752 /* DrawerPresentable.swift in Sources */,
+				C909AAB8760C5A47F208D7CBF084923A /* DrawerPresentationControlling.swift in Sources */,
+				359B4E0673A0AA442D3B20CABE314DDF /* DrawerShadowConfiguration.swift in Sources */,
+				02D9B23BADED70DFBB5AB25051085DCC /* DrawerState.swift in Sources */,
+				82F174BD447D3FFEEBA7242DC088E354 /* GeometryEvaluator.swift in Sources */,
+				F47F3CD8C0AF9A17A17C7E7F39BCF2C4 /* HandleViewConfiguration.swift in Sources */,
+				72B757C70150ECFEE19E5A2139785759 /* InteractionController.swift in Sources */,
+				DDEBDB00BD34C39B2FF55A9FF509A57E /* Notifications.swift in Sources */,
+				8E7603618310911CFFD18AA16C8B64D6 /* PresentationContainerView.swift in Sources */,
+				55D73D37EB3CB394CE276F11A32F8D51 /* PresentationController+Animation.swift in Sources */,
+				D2E5CD721BDD5AC0B547923E6F2A1491 /* PresentationController+Configuration.swift in Sources */,
+				CC9DDA600079BAF7D7EFDC832A756C56 /* PresentationController+Gestures.swift in Sources */,
+				4592F0FEB70D5D966B00ABF324303C7C /* PresentationController+Properties.swift in Sources */,
+				4C9FCCED6A56971059D899561802159F /* PresentationController+PullToDismiss.swift in Sources */,
+				481F798C6F63A316109D3D4305C6D125 /* PresentationController+Setup.swift in Sources */,
+				1F66BC6F78EA92F6D8F0AE6966E8C839 /* PresentationController+Utilities.swift in Sources */,
+				1F942DC870D1A40B40FE1D8AB88D59E0 /* PresentationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		221FC72CA5707FA71EAC7BFF1EA8690A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SJSegmentedScrollView;
+			target = D86BE5C90AA00FA58CBD7A862EAA7BAF /* SJSegmentedScrollView */;
+			targetProxy = F3271DC06C2B5CE83CFB23234439EC50 /* PBXContainerItemProxy */;
+		};
+		805E70318DCBBA36C77FC64975733800 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DrawerKit;
+			target = 4303FD42732B9D5F666C3D0172B2D9E7 /* DrawerKit */;
+			targetProxy = 28434C77E70C9351EB80FF0CA34F9DB6 /* PBXContainerItemProxy */;
+		};
+		F551EB3233FE9DCACC5013D54B1246E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MTCircularSlider;
+			target = 580CA9B79615B5BAE4626EA872B7C013 /* MTCircularSlider */;
+			targetProxy = 64E7DCE4E979443240379FA439B03C3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16DD829D52D7B0EF2FD41E5556AAE5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B33763B6E2496E17E7F2A24BACF2C2D /* MTCircularSlider.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MTCircularSlider/MTCircularSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MTCircularSlider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MTCircularSlider/MTCircularSlider.modulemap";
+				PRODUCT_MODULE_NAME = MTCircularSlider;
+				PRODUCT_NAME = MTCircularSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4EF5BD8115FC4F884CC9B669DF0B62C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 922212E9DFA287614D04CEA5B4D48193 /* Pods-musicplayerApp3.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-musicplayerApp3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-musicplayerApp3/Pods-musicplayerApp3.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55B22AF88E98BF2A9BF16368CF44B791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3C8CE0871827BF59CF0BFAC73508E8D /* SJSegmentedScrollView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SJSegmentedScrollView/SJSegmentedScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SJSegmentedScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SJSegmentedScrollView/SJSegmentedScrollView.modulemap";
+				PRODUCT_MODULE_NAME = SJSegmentedScrollView;
+				PRODUCT_NAME = SJSegmentedScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91BE21085F923C26B20116C0A578A326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A0B3A7411E8029057858562C283603F /* DrawerKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DrawerKit/DrawerKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DrawerKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DrawerKit/DrawerKit.modulemap";
+				PRODUCT_MODULE_NAME = DrawerKit;
+				PRODUCT_NAME = DrawerKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A0680BABA4FA1397817A4F88F67005C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B33763B6E2496E17E7F2A24BACF2C2D /* MTCircularSlider.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MTCircularSlider/MTCircularSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MTCircularSlider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MTCircularSlider/MTCircularSlider.modulemap";
+				PRODUCT_MODULE_NAME = MTCircularSlider;
+				PRODUCT_NAME = MTCircularSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B2454FD72F3AE3F6C6EEAE0F911D61BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3C8CE0871827BF59CF0BFAC73508E8D /* SJSegmentedScrollView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SJSegmentedScrollView/SJSegmentedScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SJSegmentedScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SJSegmentedScrollView/SJSegmentedScrollView.modulemap";
+				PRODUCT_MODULE_NAME = SJSegmentedScrollView;
+				PRODUCT_NAME = SJSegmentedScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B59F4FD650E84D5BCECC88F8C377A076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5C8C98AC590429D41BAFCA41821B1AE /* Pods-musicplayerApp3.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-musicplayerApp3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-musicplayerApp3/Pods-musicplayerApp3.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C92782E717C52E3633C9A5F211E7987A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EA8C7AF90938697605468604B2A17B9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FB369389934D267CD1CD69D904056CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A0B3A7411E8029057858562C283603F /* DrawerKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DrawerKit/DrawerKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DrawerKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DrawerKit/DrawerKit.modulemap";
+				PRODUCT_MODULE_NAME = DrawerKit;
+				PRODUCT_NAME = DrawerKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92782E717C52E3633C9A5F211E7987A /* Debug */,
+				EA8C7AF90938697605468604B2A17B9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A6E74FB67DD511F70B9993C1E8FD411 /* Build configuration list for PBXNativeTarget "DrawerKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB369389934D267CD1CD69D904056CDB /* Debug */,
+				91BE21085F923C26B20116C0A578A326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF190C0E7736C0739280BB8E1E4C289 /* Build configuration list for PBXNativeTarget "MTCircularSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16DD829D52D7B0EF2FD41E5556AAE5F6 /* Debug */,
+				9A0680BABA4FA1397817A4F88F67005C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AC8C51AB8834EE1D0C7C1D18C5E0EAB /* Build configuration list for PBXNativeTarget "SJSegmentedScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B22AF88E98BF2A9BF16368CF44B791 /* Debug */,
+				B2454FD72F3AE3F6C6EEAE0F911D61BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF67F199514C40A9F23C908F101893E3 /* Build configuration list for PBXNativeTarget "Pods-musicplayerApp3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EF5BD8115FC4F884CC9B669DF0B62C2 /* Debug */,
+				B59F4FD650E84D5BCECC88F8C377A076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
